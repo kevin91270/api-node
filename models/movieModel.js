@@ -5,8 +5,10 @@ module.exports = mongoose => {
             {
                 title: String,
                 duration: Number,
-                versionKey: false
             },
+            {
+                versionKey: false
+            }
         )
     );
     return Movie;

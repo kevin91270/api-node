@@ -8,7 +8,6 @@ module.exports = mongoose => {
             {
                 name: String,
                 age: Number,
-                versionKey: false,
 
                 movies: [{
                     type: Schema.Types.ObjectId,
@@ -16,6 +15,9 @@ module.exports = mongoose => {
                 }],
 
             },
+            {
+                versionKey: false
+            }
         )
     );
 
