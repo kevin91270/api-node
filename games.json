@@ -1,0 +1,24 @@
+{
+    "games": [
+        {
+            "id": "1",
+            "name": "civ6",
+            "dev": "Firaxis Games"
+        },
+        {
+            "id": "2",
+            "name": "gta5",
+            "dev": "Rockstar North"
+        },
+        {
+            "id": "43",
+            "name": "gta6",
+            "dev": "rock"
+        },
+        {
+            "id": "4",
+            "name": "pokemon",
+            "dev": "gamefreaks"
+        }
+    ]
+}

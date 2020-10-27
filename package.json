@@ -1,0 +1,22 @@
+{
+  "name": "tp3corriger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "serveur.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.9",
+    "nodemon": "^2.0.5"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "games.json"
+    ]
+  }
+}
