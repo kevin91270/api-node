@@ -1,4 +1,4 @@
-UserController = require('../controllers/User-controller');
+UserController = require('../controllers/user-controller');
 
 module.exports = (server) => {
 
