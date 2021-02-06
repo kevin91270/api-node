@@ -7,6 +7,9 @@ const { mongoose } = require('./models');
 const server = express();
 const port = 3000
 
+const cors = require('cors');
+server.use(cors());
+
 server.use(bodyParser.json());
 server.use(bodyParser.urlencoded({ extended: true }));
 server.set('json spaces', 2);
